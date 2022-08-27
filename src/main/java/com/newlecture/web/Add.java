@@ -18,6 +18,7 @@ public class Add extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
+		//이건 깃 시범용
 		
 		int x = Integer.parseInt(request.getParameter("x"));
 		int y = Integer.parseInt(request.getParameter("y"));
